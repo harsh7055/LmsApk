@@ -1,0 +1,902 @@
+{
+    "input": {
+        "from": "KOS",
+        "to": "PEN"
+    },
+    "tag": "/api/booking/lounges/search/airport",
+    "status": 1,
+    "result": {
+        "lounges": [
+            {
+                "_id": "6254ed0e1957b68089f4de62",
+                "lounges": [
+                    {
+                        "_id": "62d8fd613d789c26cd743200",
+                        "name": "PEN",
+                        "code": "PENANG",
+                        "brand": 1,
+                        "addressLine1": "Bayan Lepas ",
+                        "airport": "6254ed0e1957b68089f4de62",
+                        "capacity": 555,
+                        "photos": [
+                            "https://trangile-ppg-lms.s3-us-east-1.amazonaws.com/3200/3100/lounge-photos/a4705f4e-c27e-4c8c-b5b5-6c4669ea74eb.jpg"
+                        ],
+                        "timings": [
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "63b2a7739d32e807865f226f"
+                                    }
+                                ],
+                                "day": 2,
+                                "closed": false,
+                                "_id": "63b2a7949d32e807865f227f"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "63b2a7739d32e807865f2271"
+                                    }
+                                ],
+                                "day": 1,
+                                "closed": false,
+                                "_id": "63b2a7949d32e807865f2281"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "63b2a7739d32e807865f2273"
+                                    }
+                                ],
+                                "day": 6,
+                                "closed": false,
+                                "_id": "63b2a7949d32e807865f2283"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "63b2a7739d32e807865f2275"
+                                    }
+                                ],
+                                "day": 3,
+                                "closed": false,
+                                "_id": "63b2a7949d32e807865f2285"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "63b2a7739d32e807865f2277"
+                                    }
+                                ],
+                                "day": 4,
+                                "closed": false,
+                                "_id": "63b2a7949d32e807865f2287"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "63b2a7739d32e807865f2279"
+                                    }
+                                ],
+                                "day": 5,
+                                "closed": false,
+                                "_id": "63b2a7949d32e807865f2289"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "63b2a7739d32e807865f227b"
+                                    }
+                                ],
+                                "day": 7,
+                                "closed": false,
+                                "_id": "63b2a7949d32e807865f228b"
+                            }
+                        ],
+                        "addressLine2": " Barat Daya11900 Penang, Malaysia",
+                        "area": 100,
+                        "facilities": []
+                    },
+                    {
+                        "_id": "62f113e9a8ac98f251ae7e62",
+                        "name": "PEN (Intl, Dom Dep)",
+                        "code": "PEN5487",
+                        "brand": 1,
+                        "addressLine1": "Level 2, Domestic Departure (near Gate A1A) ",
+                        "addressLine2": "",
+                        "airport": "6254ed0e1957b68089f4de62",
+                        "capacity": 600,
+                        "description": "",
+                        "photos": [],
+                        "timings": [
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f113e9a8ac98f251ae7e65"
+                                    }
+                                ],
+                                "day": 1,
+                                "closed": false,
+                                "_id": "62f113e9a8ac98f251ae7e64"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f113e9a8ac98f251ae7e67"
+                                    }
+                                ],
+                                "day": 2,
+                                "closed": false,
+                                "_id": "62f113e9a8ac98f251ae7e66"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f113e9a8ac98f251ae7e69"
+                                    }
+                                ],
+                                "day": 3,
+                                "closed": false,
+                                "_id": "62f113e9a8ac98f251ae7e68"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f113e9a8ac98f251ae7e6b"
+                                    }
+                                ],
+                                "day": 4,
+                                "closed": false,
+                                "_id": "62f113e9a8ac98f251ae7e6a"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f113e9a8ac98f251ae7e6d"
+                                    }
+                                ],
+                                "day": 5,
+                                "closed": false,
+                                "_id": "62f113e9a8ac98f251ae7e6c"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f113e9a8ac98f251ae7e6f"
+                                    }
+                                ],
+                                "day": 6,
+                                "closed": false,
+                                "_id": "62f113e9a8ac98f251ae7e6e"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f113e9a8ac98f251ae7e71"
+                                    }
+                                ],
+                                "day": 7,
+                                "closed": false,
+                                "_id": "62f113e9a8ac98f251ae7e70"
+                            }
+                        ],
+                        "facilities": []
+                    },
+                    {
+                        "_id": "62f10e0e47ab7ee5f944034f",
+                        "name": "KLIA 2 (Intl Dep) ",
+                        "code": "KLIA-2",
+                        "brand": 1,
+                        "addressLine1": "Terminal 2, Level, 2, KLIA2 Arrival Lane, 64000 Sepang, Selangor, Malaysia",
+                        "addressLine2": "",
+                        "airport": "6254ed0e1957b68089f4de62",
+                        "capacity": 500,
+                        "description": "",
+                        "photos": [],
+                        "timings": [
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10e0e47ab7ee5f9440352"
+                                    }
+                                ],
+                                "day": 1,
+                                "closed": false,
+                                "_id": "62f10e0e47ab7ee5f9440351"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10e0e47ab7ee5f9440354"
+                                    }
+                                ],
+                                "day": 2,
+                                "closed": false,
+                                "_id": "62f10e0e47ab7ee5f9440353"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10e0e47ab7ee5f9440356"
+                                    }
+                                ],
+                                "day": 3,
+                                "closed": false,
+                                "_id": "62f10e0e47ab7ee5f9440355"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10e0e47ab7ee5f9440358"
+                                    }
+                                ],
+                                "day": 4,
+                                "closed": false,
+                                "_id": "62f10e0e47ab7ee5f9440357"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10e0e47ab7ee5f944035a"
+                                    }
+                                ],
+                                "day": 5,
+                                "closed": false,
+                                "_id": "62f10e0e47ab7ee5f9440359"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10e0e47ab7ee5f944035c"
+                                    }
+                                ],
+                                "day": 6,
+                                "closed": false,
+                                "_id": "62f10e0e47ab7ee5f944035b"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10e0e47ab7ee5f944035e"
+                                    }
+                                ],
+                                "day": 7,
+                                "closed": false,
+                                "_id": "62f10e0e47ab7ee5f944035d"
+                            }
+                        ],
+                        "facilities": []
+                    },
+                    {
+                        "_id": "62f111a147ab7ee5f9440525",
+                        "name": "KLIA 2 (Aerotel – PPL)",
+                        "code": "KL-AER",
+                        "brand": 1,
+                        "addressLine1": " Level 2M, gateway@klia2, Terminal klia2, Kuala Lumpur International Airport, 64000 Kuala Lumpur, Selangor, Malaysia",
+                        "addressLine2": "",
+                        "airport": "6254ed0e1957b68089f4de62",
+                        "capacity": 500,
+                        "description": "",
+                        "photos": [],
+                        "timings": [
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f111a247ab7ee5f9440528"
+                                    }
+                                ],
+                                "day": 1,
+                                "closed": false,
+                                "_id": "62f111a247ab7ee5f9440527"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f111a247ab7ee5f944052a"
+                                    }
+                                ],
+                                "day": 2,
+                                "closed": false,
+                                "_id": "62f111a247ab7ee5f9440529"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f111a247ab7ee5f944052c"
+                                    }
+                                ],
+                                "day": 3,
+                                "closed": false,
+                                "_id": "62f111a247ab7ee5f944052b"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f111a247ab7ee5f944052e"
+                                    }
+                                ],
+                                "day": 4,
+                                "closed": false,
+                                "_id": "62f111a247ab7ee5f944052d"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f111a247ab7ee5f9440530"
+                                    }
+                                ],
+                                "day": 5,
+                                "closed": false,
+                                "_id": "62f111a247ab7ee5f944052f"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f111a247ab7ee5f9440532"
+                                    }
+                                ],
+                                "day": 6,
+                                "closed": false,
+                                "_id": "62f111a247ab7ee5f9440531"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f111a247ab7ee5f9440534"
+                                    }
+                                ],
+                                "day": 7,
+                                "closed": false,
+                                "_id": "62f111a247ab7ee5f9440533"
+                            }
+                        ],
+                        "facilities": []
+                    },
+                    {
+                        "_id": "62d8f0092e97c94d7c884c80",
+                        "name": "PEN 1",
+                        "code": "PEN",
+                        "brand": 1,
+                        "addressLine1": "Penang",
+                        "airport": "6254ed0e1957b68089f4de62",
+                        "capacity": 555,
+                        "photos": [],
+                        "timings": [
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62d8f0092e97c94d7c884c83"
+                                    }
+                                ],
+                                "day": 1,
+                                "closed": false,
+                                "_id": "62d8f0092e97c94d7c884c82"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62d8f0092e97c94d7c884c85"
+                                    }
+                                ],
+                                "day": 2,
+                                "closed": false,
+                                "_id": "62d8f0092e97c94d7c884c84"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62d8f0092e97c94d7c884c87"
+                                    }
+                                ],
+                                "day": 3,
+                                "closed": false,
+                                "_id": "62d8f0092e97c94d7c884c86"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62d8f0092e97c94d7c884c89"
+                                    }
+                                ],
+                                "day": 4,
+                                "closed": false,
+                                "_id": "62d8f0092e97c94d7c884c88"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62d8f0092e97c94d7c884c8b"
+                                    }
+                                ],
+                                "day": 5,
+                                "closed": false,
+                                "_id": "62d8f0092e97c94d7c884c8a"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62d8f0092e97c94d7c884c8d"
+                                    }
+                                ],
+                                "day": 6,
+                                "closed": false,
+                                "_id": "62d8f0092e97c94d7c884c8c"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62d8f0092e97c94d7c884c8f"
+                                    }
+                                ],
+                                "day": 7,
+                                "closed": false,
+                                "_id": "62d8f0092e97c94d7c884c8e"
+                            }
+                        ],
+                        "area": 500,
+                        "facilities": [
+                            {
+                                "name": "Meeting area suboutlet",
+                                "code": "MAS",
+                                "brand": 1,
+                                "addressLine1": "malaysia",
+                                "addressLine2": "",
+                                "capacity": 10,
+                                "area": 100,
+                                "photos": [],
+                                "timings": [
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d2028941936d2f27f7a0"
+                                            }
+                                        ],
+                                        "day": 1,
+                                        "closed": false,
+                                        "_id": "6333d2028941936d2f27f79f"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d2028941936d2f27f7a2"
+                                            }
+                                        ],
+                                        "day": 2,
+                                        "closed": false,
+                                        "_id": "6333d2028941936d2f27f7a1"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d2028941936d2f27f7a4"
+                                            }
+                                        ],
+                                        "day": 3,
+                                        "closed": false,
+                                        "_id": "6333d2028941936d2f27f7a3"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d2028941936d2f27f7a6"
+                                            }
+                                        ],
+                                        "day": 4,
+                                        "closed": false,
+                                        "_id": "6333d2028941936d2f27f7a5"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d2028941936d2f27f7a8"
+                                            }
+                                        ],
+                                        "day": 5,
+                                        "closed": false,
+                                        "_id": "6333d2028941936d2f27f7a7"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d2028941936d2f27f7aa"
+                                            }
+                                        ],
+                                        "day": 6,
+                                        "closed": false,
+                                        "_id": "6333d2028941936d2f27f7a9"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d2028941936d2f27f7ac"
+                                            }
+                                        ],
+                                        "day": 7,
+                                        "closed": false,
+                                        "_id": "6333d2028941936d2f27f7ab"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Dining area",
+                                "code": "DIN",
+                                "brand": 1,
+                                "addressLine1": "malaysia",
+                                "addressLine2": "",
+                                "capacity": 30,
+                                "area": 125,
+                                "photos": [],
+                                "timings": [
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d3528941936d2f282eeb"
+                                            }
+                                        ],
+                                        "day": 1,
+                                        "closed": false,
+                                        "_id": "6333d3528941936d2f282eea"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d3528941936d2f282eed"
+                                            }
+                                        ],
+                                        "day": 2,
+                                        "closed": false,
+                                        "_id": "6333d3528941936d2f282eec"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d3528941936d2f282eef"
+                                            }
+                                        ],
+                                        "day": 3,
+                                        "closed": false,
+                                        "_id": "6333d3528941936d2f282eee"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d3528941936d2f282ef1"
+                                            }
+                                        ],
+                                        "day": 4,
+                                        "closed": false,
+                                        "_id": "6333d3528941936d2f282ef0"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d3528941936d2f282ef3"
+                                            }
+                                        ],
+                                        "day": 5,
+                                        "closed": false,
+                                        "_id": "6333d3528941936d2f282ef2"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d3528941936d2f282ef5"
+                                            }
+                                        ],
+                                        "day": 6,
+                                        "closed": false,
+                                        "_id": "6333d3528941936d2f282ef4"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333d3528941936d2f282ef7"
+                                            }
+                                        ],
+                                        "day": 7,
+                                        "closed": false,
+                                        "_id": "6333d3528941936d2f282ef6"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Kids zone",
+                                "code": "KIDS",
+                                "brand": 1,
+                                "addressLine1": "malaysia",
+                                "addressLine2": "malaysia",
+                                "capacity": 25,
+                                "area": 50,
+                                "photos": [],
+                                "timings": [
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333bb9f0f6d44ef5352f038"
+                                            }
+                                        ],
+                                        "day": 1,
+                                        "closed": false,
+                                        "_id": "6333bb9f0f6d44ef5352f037"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333bb9f0f6d44ef5352f03a"
+                                            }
+                                        ],
+                                        "day": 2,
+                                        "closed": false,
+                                        "_id": "6333bb9f0f6d44ef5352f039"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333bb9f0f6d44ef5352f03c"
+                                            }
+                                        ],
+                                        "day": 3,
+                                        "closed": false,
+                                        "_id": "6333bb9f0f6d44ef5352f03b"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333bb9f0f6d44ef5352f03e"
+                                            }
+                                        ],
+                                        "day": 4,
+                                        "closed": false,
+                                        "_id": "6333bb9f0f6d44ef5352f03d"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333bb9f0f6d44ef5352f040"
+                                            }
+                                        ],
+                                        "day": 5,
+                                        "closed": false,
+                                        "_id": "6333bb9f0f6d44ef5352f03f"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333bb9f0f6d44ef5352f042"
+                                            }
+                                        ],
+                                        "day": 6,
+                                        "closed": false,
+                                        "_id": "6333bb9f0f6d44ef5352f041"
+                                    },
+                                    {
+                                        "intervals": [
+                                            {
+                                                "openingTime": "09:00",
+                                                "closingTime": "22:00",
+                                                "_id": "6333bb9f0f6d44ef5352f044"
+                                            }
+                                        ],
+                                        "day": 7,
+                                        "closed": false,
+                                        "_id": "6333bb9f0f6d44ef5352f043"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "62f10a57a8ac98f251ae77ca",
+                        "name": "PEN (Int Dep, Dom Dep)",
+                        "code": "PEN123",
+                        "brand": 1,
+                        "addressLine1": "Level 2, Domestic Departure (near Gate A1A)",
+                        "addressLine2": "Mezzanine Floor, International Departure (near Gate A3)",
+                        "airport": "6254ed0e1957b68089f4de62",
+                        "capacity": 500,
+                        "description": "",
+                        "photos": [],
+                        "timings": [
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10a57a8ac98f251ae77cd"
+                                    }
+                                ],
+                                "day": 1,
+                                "closed": false,
+                                "_id": "62f10a57a8ac98f251ae77cc"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10a57a8ac98f251ae77cf"
+                                    }
+                                ],
+                                "day": 2,
+                                "closed": false,
+                                "_id": "62f10a57a8ac98f251ae77ce"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10a57a8ac98f251ae77d1"
+                                    }
+                                ],
+                                "day": 3,
+                                "closed": false,
+                                "_id": "62f10a57a8ac98f251ae77d0"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10a57a8ac98f251ae77d3"
+                                    }
+                                ],
+                                "day": 4,
+                                "closed": false,
+                                "_id": "62f10a57a8ac98f251ae77d2"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10a57a8ac98f251ae77d5"
+                                    }
+                                ],
+                                "day": 5,
+                                "closed": false,
+                                "_id": "62f10a57a8ac98f251ae77d4"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10a57a8ac98f251ae77d7"
+                                    }
+                                ],
+                                "day": 6,
+                                "closed": false,
+                                "_id": "62f10a57a8ac98f251ae77d6"
+                            },
+                            {
+                                "intervals": [
+                                    {
+                                        "openingTime": "09:00",
+                                        "closingTime": "22:00",
+                                        "_id": "62f10a57a8ac98f251ae77d9"
+                                    }
+                                ],
+                                "day": 7,
+                                "closed": false,
+                                "_id": "62f10a57a8ac98f251ae77d8"
+                            }
+                        ],
+                        "facilities": []
+                    }
+                ]
+            }
+        ]
+    },
+    "description": "Fetched matching lounges"
+}
