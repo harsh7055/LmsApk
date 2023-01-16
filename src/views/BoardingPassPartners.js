@@ -6,7 +6,7 @@ import { getToken } from '../utils/tokenStore';
 import axios from 'axios';
 
 export default function BoardingPassPartners({ navigation, route}) {
-  const [lounges, setlounges] = useState([])
+  const [lounges, setLounges] = useState()
   const [flag, setflag] = useState(false)
   // let response=[];
 
@@ -32,10 +32,15 @@ var config = {
 
 try {
   const res = await axios(config)
-  console.log(JSON.stringify(res.data.result.lounges[0].lounges) + "API END CALL");
-  // return JSON.stringify(res)
-  setlounges(JSON.stringify(res))
-  console.log(lounges+"after set ")
+  const data = await res.json();
+  setLounges(data)
+  console.log(lounges);
+
+  // const data= JSON.stringify(res.data)
+  // console.log(data + " Data");
+  // console.log(JSON.stringify(res.data.result.lounges[0].lounges) + "API END CALL");
+  // // return JSON.stringify(res)
+  // console.log(lounges+" after set ")
 // setflag(true)
 }
 
@@ -47,7 +52,7 @@ catch (error) {
 useEffect(()=>{
   getAPI();
 },[])
-console.log(lounges.data +"API CALL FROM LOUNGES");
+// console.log(lounges +"API CALL FROM LOUNGES");
 
   return (
     <View>

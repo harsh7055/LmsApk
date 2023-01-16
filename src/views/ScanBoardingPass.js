@@ -17,17 +17,17 @@ const ScanBoardingPass = ({ navigation }) => {
   // console.log("jassi");
   const onSuccess = (e) => {
     let data=e.data
-    // console.log(data);
+    console.log(data);
 
     
     // console.log(e);
     let output=decode(e.data);
-    // console.log(output);
+    console.log(output);
     let passData=output.data.legs;
-    // console.log(JSON.stringify(passData) );
+    console.log(JSON.stringify(passData) );
     passData.map((element)=>{
-    // console.log(element.arrivalAirport);
-    // console.log(element.departureAirport);
+    console.log(element.arrivalAirport);
+    console.log(element.departureAirport);
     // setArrivalAirport(element.arrivalAirport);
     // setDepartureAirport(element.departureAirport);
     
@@ -72,6 +72,11 @@ const ScanBoardingPass = ({ navigation }) => {
                      Please move your camera {"\n"} over the QR Code
                   </Text>
               }
+              bottomContent={
+                <View>
+                        <Text>Scan Your Boarding Pass</Text>
+                </View>
+            }
              />
           
          
