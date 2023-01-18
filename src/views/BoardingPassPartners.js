@@ -85,7 +85,7 @@ export default function BoardingPassPartners({ navigation, route }) {
   //   })
   // })
   return (
-    <View >
+    <View style={styles.container}>
       {lounges.map(res => (
         res.lounges.map((item) => {
           return (
@@ -148,8 +148,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     flexDirection: "row",
     width: "100%",
-    padding: "2%",
-    height: 200
+    padding: "2%"
   },
   box: {
     width: "97%",
@@ -162,7 +161,6 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: "space-between",
     borderColor: "grey",
-    // height:"100%"
     // maxHeight:350
   },
   description: {
@@ -176,13 +174,9 @@ const styles = StyleSheet.create({
   },
   container: {
     backgroundColor: 'white',
-    height: "100%",
+    height: "50%",
     padding: '5%',
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    flexDirection: "row",
-    overflow: "scroll"
+    overflow:"scroll"
 
   },
   ReadMoreButton: {
